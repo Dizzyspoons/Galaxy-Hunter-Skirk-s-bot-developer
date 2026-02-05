@@ -2,14 +2,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO Title - Enhanced with your name first -->
-  <title>ABDO - Skirk Bot Developer & Galaxy Hunter Creator</title>
+  <!-- SEO Title -->
+  <title>ABDO - Skirk Discord Bot Developer | Galaxy Hunter</title>
 
-  <!-- SEO Description - More focused on your identity -->
-  <meta name="description" content="ABDO - Professional Discord bot developer and creator of Skirk bot and Galaxy Hunter. Connect with ABDO for bot development services and gaming projects." />
+  <!-- SEO Description -->
+    <meta name="description" content="ABDO - Discord bot developer, creator of Skirk, a multi-game Discord bot featuring HSR, WuWa, and Genshin." />
 
-  <!-- Keywords - More emphasis on your name -->
-  <meta name="keywords" content="ABDO, ABDO developer, ABDO Skirk, ABDO Galaxy Hunter, Skirk bot, Skirk Discord bot, Skirk bot developer, Galaxy Hunter, Galaxy Hunter Neon, Skirk developer, discord bot games, Skirk owner, bot development, discord tools" />
+  <!-- Keywords -->
+  <meta name="keywords" content="ABDO, ABDO developer, Skirk bot, Skirk Discord bot, Skirk bot developer, multi-game Discord bot, Galaxy Hunter, Discord bot games, bot development, HSR, WuWa, Genshin" />
 
   <!-- Allow Google to Index -->
   <meta name="robots" content="index, follow" />
@@ -17,14 +17,14 @@
   <!-- Canonical URL -->
   <link rel="canonical" href="https://galaxy-hunter-neon.vercel.app/" />
 
-  <!-- Favicon + Icons -->
+  <!-- Favicon -->
   <link rel="icon" href="https://i.postimg.cc/2jtYd7GK/a2d570aa9a5f6deed118c5074d86ed23.jpg" type="image/jpeg" />
   <link rel="apple-touch-icon" href="https://i.postimg.cc/2jtYd7GK/a2d570aa9a5f6deed118c5074d86ed23.jpg" />
   <link rel="icon" sizes="192x192" href="https://i.postimg.cc/2jtYd7GK/a2d570aa9a5f6deed118c5074d86ed23.jpg" />
 
-  <!-- Open Graph (Discord, WhatsApp, Facebook) -->
-  <meta property="og:title" content="ABDO - Skirk Bot Developer & Galaxy Hunter Creator" />
-  <meta property="og:description" content="ABDO - Professional Discord bot developer and creator of Skirk bot and Galaxy Hunter projects." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="ABDO - Skirk Discord Bot Developer | Galaxy Hunter" />
+  <meta property="og:description" content="ABDO - Creator of Skirk, a multi-game Discord bot featuring HSR, WuWa, Genshin, and more." />
   <meta property="og:image" content="https://i.postimg.cc/2jtYd7GK/a2d570aa9a5f6deed118c5074d86ed23.jpg" />
   <meta property="og:url" content="https://galaxy-hunter-neon.vercel.app/" />
   <meta property="og:type" content="website" />
@@ -32,22 +32,22 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="ABDO - Skirk Bot Developer & Galaxy Hunter Creator" />
-  <meta name="twitter:description" content="ABDO - Professional Discord bot developer and creator of Skirk bot and Galaxy Hunter." />
+  <meta name="twitter:title" content="ABDO - Skirk Discord Bot Developer | Galaxy Hunter" />
+  <meta name="twitter:description" content="ABDO - Creator of Skirk, a multi-game Discord bot including HSR, WuWa, Genshin, and more." />
   <meta name="twitter:image" content="https://i.postimg.cc/2jtYd7GK/a2d570aa9a5f6deed118c5074d86ed23.jpg" />
 
-  <!-- Enhanced Structured Data -->
+  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "ABDO",
-    "alternateName": "ABDO Skirk Developer",
+    "alternateName": "Galaxy Hunter",
     "url": "https://galaxy-hunter-neon.vercel.app/",
     "image": "https://i.postimg.cc/2jtYd7GK/a2d570aa9a5f6deed118c5074d86ed23.jpg",
-    "jobTitle": "Bot Developer",
-    "description": "ABDO is a professional Discord bot developer and the creator of the Skirk Discord bot and Galaxy Hunter projects.",
-    "knowsAbout": ["Discord Bot Development", "Game Development", "Skirk Bot", "Galaxy Hunter"],
+    "jobTitle": "Discord Bot Developer",
+    "description": "ABDO is a professional Discord bot developer and creator of Skirk, a multi-game bot featuring HSR, WuWa, Genshin, and more.",
+    "knowsAbout": ["Discord Bot Development", "Game Development", "HSR", "WuWa", "Genshin", "Skirk Bot"],
     "sameAs": [
       "https://discord.com",
       "https://github.com"
@@ -56,20 +56,13 @@
       {
         "@type": "SoftwareApplication",
         "name": "Skirk Discord Bot",
-        "description": "A feature-rich Discord bot developed by ABDO"
-      },
-      {
-        "@type": "SoftwareApplication", 
-        "name": "Galaxy Hunter",
-        "description": "A gaming project created by ABDO"
+        "description": "A feature-rich multi-game Discord bot developed by ABDO."
       }
     ]
   }
   </script>
 
-  <!-- Additional meta tag for personal branding -->
   <meta name="author" content="ABDO" />
-</head>
 
   <!-- Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -77,6 +70,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Exo+2:wght@300;400;600&family=Rajdhani:wght@500;700&family=Audiowide&family=Quantico&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
+
   <style>
     :root {
       --primary-color: #ff0000;
@@ -609,7 +603,14 @@
       transform: translateZ(0);
       will-change: transform;
     }
-    
+    /* --- FIX: HIDE MOBILE ELEMENTS ON PC (Default State) --- */
+    .mobile-top-bar {
+        display: none !important;
+    }
+
+    .mobile-menu-overlay {
+        display: none !important;
+    }
     .grid-buttons a::before {
       content: "";
       position: absolute;
@@ -1801,6 +1802,7 @@
       z-index: 1;
       transform: translateZ(0);
       will-change: transform;
+      margin-top: 20px
     }
     
     .project-link:hover {
@@ -2732,99 +2734,211 @@
       70% { transform: scale(1); }
     }
     
-    /* Responsive adjustments */
+     /* Responsive adjustments */
     @media (max-width: 768px) {
-      header h1 {
-        font-size: 2.5rem;
+      
+      /* 1. FORCE MOBILE ELEMENTS TO SHOW */
+      .mobile-top-bar {
+        display: flex !important; 
+      }
+
+      .mobile-menu-overlay {
+        display: flex !important;
+        opacity: 0;
+        visibility: hidden;
       }
       
-      .subtitle {
-        font-size: 1.2rem;
+      .mobile-menu-overlay.active {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      /* 2. HIDE PC ELEMENTS */
+      nav {
+        display: none !important;
       }
       
-      .quote {
-        font-size: 1.1rem;
+      .dark-mode-toggle {
+        display: none !important;
       }
-      
+
       .floating-music-player {
-        width: 300px;
-        padding: 12px 15px;
+        display: none !important;
+      }
+
+      /* 3. LOCK SCREEN & REMOVE DRAG */
+      html, body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+        max-width: 100vw !important;
+      }
+
+      /* 4. LAYOUT FIXES */
+      .page {
+        width: 100%;
+        margin-top: 60px; /* Space for top bar */
+      }
+
+      section, .galaxy-portal, .content-container, .projects-section, .contact-section, .timeline-section, .quiz-section, .minigame-section, .cid-gallery-section, .banner {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 1.5rem !important;
+        border-radius: 0 !important; /* Flat edges on mobile */
       }
       
-      .floating-cover {
-        width: 50px;
-        height: 50px;
+      body {
+        padding: 0 !important;
       }
+
+      header h1 { font-size: 2.2rem; text-align: center; }
+      .subtitle { font-size: 1.1rem; text-align: center; }
       
-      .akali-header {
-        flex-direction: column;
-        gap: 1rem;
-      }
+      .akali-header { flex-direction: column; gap: 1rem; text-align: center; }
+      .akali-title { font-size: 2.2rem; }
+      .akali-description { font-size: 1rem; }
       
-      .akali-title {
-        font-size: 2.5rem;
-      }
-      
-      .akali-description {
-        font-size: 1.2rem;
-      }
-      
-      .menu-toggle {
-        display: flex;
-      }
-      
-      nav div {
-        display: none;
-        position: absolute;
-        top: 100%;
+      .timeline::before { left: 20px; }
+      .timeline-content { width: calc(100% - 60px); margin-left: 60px !important; }
+      .timeline-icon { left: 20px; }
+
+      /* 5. MOBILE BAR STYLES */
+      .mobile-top-bar {
+        position: fixed;
+        top: 0;
         left: 0;
         width: 100%;
-        background: var(--card-bg);
-        flex-direction: column;
-        padding: 1rem;
-        border-radius: 0 0 16px 16px;
-        box-shadow: 0 8px 32px rgba(255, 0, 0, 0.2);
-        border: 1px solid rgba(255, 0, 0, 0.3);
-        border-top: none;
+        height: 60px;
+        background: rgba(0, 0, 0, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+        z-index: 2000;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
       }
-      
-      nav div.active {
+
+      .mobile-top-left {
         display: flex;
+        align-items: center;
+        gap: 15px;
+        flex: 1;
       }
-      
-      nav button {
-        margin: 0.5rem 0;
-        width: 100%;
-      }
-      
-      .contact-container {
-        flex-direction: column;
-      }
-      
-      .landing-title {
-        font-size: 3rem;
-      }
-      
-      .landing-subtitle {
+
+      .top-bar-icon {
+        color: var(--light-text);
         font-size: 1.2rem;
+        cursor: pointer;
+        transition: color 0.2s ease;
+        background: rgba(255, 0, 0, 0.1);
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .top-bar-icon:hover {
+        color: var(--primary-color);
+        background: rgba(255, 0, 0, 0.3);
+      }
+
+      .mobile-logo {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1.3rem;
+        color: var(--primary-color);
+        font-weight: bold;
+        text-shadow: 0 0 10px var(--primary-color);
+        flex: 0 0 auto;
+      }
+
+      .mobile-burger-btn {
+        color: var(--light-text);
+        font-size: 1.8rem;
+        cursor: pointer;
+        flex: 1;
+        text-align: right;
+      }
+
+      /* 6. MENU OVERLAY STYLES */
+      /* 6. MOBILE MENU OVERLAY (Pop-out Card Style) */
+      .mobile-menu-overlay {
+        position: fixed;
+        /* Center the box in the middle of the screen */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        /* Make it smaller than full screen */
+        width: 90%;
+        height: 85%;
+        
+        /* Neon Card Style */
+        background: rgba(0, 0, 0, 0.95);
+        backdrop-filter: blur(20px);
+        border: 2px solid var(--primary-color);
+        border-radius: 25px;
+        box-shadow: 0 0 50px rgba(255, 0, 0, 0.6); /* Red Neon Glow */
+        
+        z-index: 1999;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Hides corners during animation */
+      }
+
+      /* Animation State */
+      .mobile-menu-overlay.active {
+        display: flex;
+        opacity: 1;
+        /* This creates the bouncy pop effect */
+        animation: popIn 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+
+      /* Define the Animation */
+      @keyframes popIn {
+        0% {
+          opacity: 0;
+          transform: translate(-50%, -40%) scale(0.5); /* Start small and lower */
+        }
+        100% {
+          opacity: 1;
+          transform: translate(-50%, -50%) scale(1); /* End at center and full size */
+        }
       }
       
-      .timeline::before {
-        left: 20px;
+      .mobile-menu-link {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1.6rem; /* Slightly smaller text */
+        color: var(--light-text);
+        margin: 10px 0; /* Compact spacing */
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: all 0.2s ease;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+      }
+
+      .mobile-menu-link:hover { 
+        color: var(--primary-color); 
+        background: rgba(255, 0, 0, 0.1); /* Highlight background on hover */
+        transform: scale(1.05); /* Slight grow on hover */
       }
       
-      .timeline-content {
-        width: calc(100% - 60px);
-        margin-left: 60px !important;
-      }
-      
-      .timeline-icon {
-        left: 20px;
-      }
-      
-      /* Show back button on mobile */
-      .back-btn {
-        display: block;
+      .close-mobile-menu {
+        position: absolute; /* Absolute relative to the overlay box */
+        top: 20px;       /* 20px from top of box */
+        right: 20px;      /* 20px from right of box */
+        color: var(--primary-color);
+        font-size: 2rem;
+        cursor: pointer;
+        z-index: 10;
       }
     }
   </style>
@@ -2899,7 +3013,40 @@
       <button onclick="showPage('cid-gallery')" class="nav-btn" data-page="cid-gallery">CID Gallery</button>
     </div>
   </nav>
-  
+    <!-- NEW Mobile Top Bar with Icons -->
+  <div class="mobile-top-bar">
+    <!-- Left Side: Back Arrow + Music Toggle -->
+    <div class="mobile-top-left">
+      <i class="fas fa-chevron-left top-bar-icon" onclick="goBack()"></i>
+      <i class="fas fa-volume-up top-bar-icon" id="topMusicBtn" onclick="toggleMobileMusic()"></i>
+    </div>
+
+    <!-- Center: Logo -->
+    <div class="mobile-logo">ΛBÐØ</div>
+
+    <!-- Right Side: Burger Menu -->
+    <div class="mobile-burger-btn" onclick="toggleMobileMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+
+  <!-- Mobile Menu Overlay (Keep existing) -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+    <div class="close-mobile-menu" onclick="toggleMobileMenu()">
+      <i class="fas fa-times"></i>
+    </div>
+    <a onclick="showPage('home'); toggleMobileMenu()" class="mobile-menu-link">Home</a>
+    <a onclick="showPage('about'); toggleMobileMenu()" class="mobile-menu-link">About</a>
+    <a onclick="showPage('akali'); toggleMobileMenu()" class="mobile-menu-link">Akali</a>
+    <a onclick="showPage('gaming'); toggleMobileMenu()" class="mobile-menu-link">Gaming</a>
+    <a onclick="showPage('projects'); toggleMobileMenu()" class="mobile-menu-link">Projects</a>
+    <a onclick="showPage('gallery'); toggleMobileMenu()" class="mobile-menu-link">Gallery</a>
+    <a onclick="showPage('cid-gallery'); toggleMobileMenu()" class="mobile-menu-link">CID</a>
+    <a onclick="showPage('timeline'); toggleMobileMenu()" class="mobile-menu-link">Timeline</a>
+    <a onclick="showPage('quiz'); toggleMobileMenu()" class="mobile-menu-link">Quiz</a>
+    <a onclick="showPage('minigame'); toggleMobileMenu()" class="mobile-menu-link">Game</a>
+    <a onclick="showPage('contact'); toggleMobileMenu()" class="mobile-menu-link">Contact</a>
+  </div>
   <!-- Home Page -->
   <div id="home" class="page active">
     <header>
@@ -2925,8 +3072,8 @@
     
     <!-- Galaxy's World Portal -->
     <div class="galaxy-portal">
-      <h2>Galaxy's World Portal</h2>
-      <p class="portal-description">Welcome to my digital universe. Explore the different realms of my world below:</p>
+      <h2>Galaxy's World</h2>
+      <p class="portal-description">Welcome visitor to my website</p>
       
       <div class="portal-grid">
         <div class="portal-card" onclick="showPage('about')">
@@ -2997,7 +3144,7 @@
           <strong>Favorite Song:</strong> "Snowfall"<br><br>
           I play <strong>Genshin Impact</strong>, <strong>Valorant</strong>, and <strong>League of Legends</strong>.<br>
           My heart belongs to Akali, she's my everything.<br>
-          I love anime, sleeping, and glowing aesthetic gaming vibes.
+          I love anime, sleeping, and gaming.<br>
         </p>
       </section>
       
@@ -3124,17 +3271,16 @@
           <div class="project-title">Skirk Discord Bot</div>
         </div>
         <div class="project-description">
-          Skirk is a powerful and interactive Discord bot I developed to bring RPG-style gameplay, Genshin-themed mechanics, and community-driven features to life. From hunting monsters and managing teams to gacha pulls, shipping, and customizable profiles, Skirk transforms your server into a dynamic and immersive world.
+          Skirk is a Discord bot I developed that adds fun and interactive features to your server. It includes basic RPG-style commands, mini-games, and social interactions like shipping and profile customization, making your server more engaging without overpromising gameplay depth.
         </div>
         <div class="project-features">
           <h3>Key Features:</h3>
           <ul>
-            <li>RPG-style combat system with elemental reactions</li>
-            <li>Genshin-inspired gacha system for character and weapon acquisition</li>
-            <li>Team management and synergy mechanics</li>
-            <li>Customizable user profiles with achievements and stats</li>
-            <li>Community events and seasonal content</li>
-          </ul>
+            <li>Multi-game Discord bot supporting Genshin, HSR, and WuWa systems</li>
+            <li>Gacha mechanics for collecting characters and items</li>
+            <li>RPG-style gameplay adapted for Discord interactions</li>
+            <li>User progression, profiles, and achievement tracking</li>
+            </ul>
         </div>
         <a href="https://skirk-github-io-iota.vercel.app/" target="_blank" class="project-link">
           <span>View Project</span>
@@ -3176,19 +3322,26 @@
     </header>
     
     <div class="content-container">
-      <section class="about">
+    <section class="about">
         <h2>My Story</h2>
         <p>
-          Welcome to my corner of the universe. I'm ΛBÐØ, a 20-year-old digital explorer and gaming enthusiast. My journey began in the vast worlds of online gaming, where I discovered my passion for immersive experiences and community building.
+        Hi, I’m ABDO — a self-taught Discord bot developer and the creator of Skirk.
+        My interest in development started through online gaming and Discord
+        communities, where I became curious about how games and systems bring
+        people together.
         </p>
         <p>
-          As a self-taught developer, I've channeled my creativity into building digital experiences that bring people together. My work is inspired by the games I play, the anime I watch, and the music that moves me.
+        Over time, that curiosity turned into building Skirk — a multi-game Discord
+        bot inspired by games like Genshin Impact, Honkai: Star Rail, and Wuthering
+        Waves, with a strong focus on progression, gacha systems, and community
+        interaction.
         </p>
         <p>
-          When I'm not coding or gaming, you can find me exploring new anime series, curating my music collection, or spending time in my digital shrine to Akali, the champion who has captured my heart.
+        Outside of development, I enjoy gaming, watching anime, and listening to
+        music.
         </p>
-      </section>
-      
+    </section>
+
       <section class="stats">
         <h2>Personal Stats</h2>
         <div class="stat-item">
@@ -3473,6 +3626,7 @@
   </div>
   
   <!-- Projects Page -->
+    <!-- Projects Page -->
   <div id="projects" class="page">
     <header>
       <h1>My Projects</h1>
@@ -4718,7 +4872,49 @@
       observer.observe(section);
     });
   }
-  
+  // Toggle Mobile Menu
+  function toggleMobileMenu() {
+    const overlay = document.getElementById('mobileMenuOverlay');
+    const burgerIcon = document.querySelector('.mobile-burger-btn i');
+
+    // Toggle the active class to show/hide menu
+    overlay.classList.toggle('active');
+
+    // Change the icon from Hamburger (Bars) to Close (X)
+    if (overlay.classList.contains('active')) {
+      burgerIcon.classList.remove('fa-bars');
+      burgerIcon.classList.add('fa-times');
+      // Lock scrolling when menu is open
+      document.body.style.overflow = 'hidden'; 
+    } else {
+      burgerIcon.classList.remove('fa-times');
+      burgerIcon.classList.add('fa-bars');
+      // Unlock scrolling when menu is closed
+      document.body.style.overflow = '';
+    }
+  }
+  // Toggle Music from Top Bar Icon
+  function toggleMobileMusic() {
+    const audio = document.getElementById('audio');
+    const musicIcon = document.getElementById('topMusicBtn');
+    
+    // Toggle Mute State
+    audio.muted = !audio.muted;
+
+    if (audio.muted) {
+      // Change Icon to Mute
+      musicIcon.classList.remove('fa-volume-up');
+      musicIcon.classList.add('fa-volume-mute');
+      // Pause audio to stop processing
+      audio.pause();
+    } else {
+      // Change Icon to Volume Up
+      musicIcon.classList.remove('fa-volume-mute');
+      musicIcon.classList.add('fa-volume-up');
+      // Resume audio
+      audio.play();
+    }
+  }
   // Helper function to check if element is in viewport
   function isElementInViewport(el) {
     const rect = el.getBoundingClientRect();
